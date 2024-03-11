@@ -9,9 +9,9 @@
 
 [Glossary Pro Plugin](https://www.cminds.com/wordpress-plugins-library/tooltipglossary/) | [Videos](https://www.youtube.com/playlist?list=PLUgPw0Lem0AFU9lqQrY0kgc6NN0Qcjf2P) | [Demo](https://www.glossaryplugin.com/demo/) | [User Guide](https://creativeminds.helpscoutdocs.com/category/6-tooltip-glossary-cmtg) | [AddOns](https://www.cminds.com/wordpress-plugins-library/?showfilter=No&tags=TooltipAddOn) 
 
-**The CM Tooltip Glossary is the top choice for a WordPress plugin that lets you make a list of words and their meanings, like a glossary or dictionary**.
+**The CM Tooltip Glossary is the top choice for a WordPress plugin that lets you build a knowledgebase with term definitions, like a glossary or dictionary**.
 
-When you move your mouse over words, it shows you what they mean. This plugin is strong and has been getting better since 2012, making it easy to create a big collection of words and definitions on your site.
+You can display fancy tooltips with term definitions when hovering on the term automatically found in the content. This plugin is strong and has been getting better since 2012, making it easy to create a big collection of terms and definitions on your site.
 
 ## Installation and Usage
 
@@ -22,8 +22,8 @@ When you move your mouse over words, it shows you what they mean. This plugin is
 * Move the plugin folder into the `/wp-content/plugins/` directory.
 * Switch on the plugin from the ‘Plugins’ menu in WordPress.
 * In the admin area, under ‘Glossary’, input your terms; use the page title for the term and the body for its definition.
-* Optionally, make a blank ‘Glossary’ page for a collective index of terms. Without it, terms are highlighted but not listed together.
-* If you choose, add the ID of your ‘Glossary’ page to the plugin’s settings.
+* Optionally, build a ‘Glossary’ page for a collective index of terms. Without it, terms will be highlighted but not listed together.
+* Define a custom page ID of your ‘Glossary’ page in the plugin’s settings.
 * Explore the dashboard for more optional customizations.
 
 Remember, your theme must `include wp_head()` for the Tooltip’s JavaScript and CSS to function. If not, you’ll need to add these files to your theme manually, which is not advised.
@@ -32,21 +32,21 @@ Remember, your theme must `include wp_head()` for the Tooltip’s JavaScript and
 
 The Glossary tool uses simple JavaScript to make little info boxes, called tooltips. These were inspired by an article from Michael Leigeber [here](http://sixrevisions.com/tutorials/javascript_tutorial/create_lightweight_javascript_tooltip/).
 
-You can change how these tooltips look and work with the tooltip.css and tooltip.js files.
+You can change how these tooltips look like and work with the tooltip.css and tooltip.js files.
 
 Also, the Glossary’s A-to-Z list is made using the [jQuery ListNav Plugin](http://www.ihwy.com/labs/jquery-listnav-plugin.aspx).
 
 ## Glossary Terms Pages, Links and Glosary Index
 
-This plugin finds special words in your posts or pages and links them to a page that explains them in detail. It also makes an index that organizes all these special words from your site, so people can easily find and understand them.
+This plugin finds special terms in your posts or pages and links them to a page that explains them in detail. It also makes an index that organizes all these glossary terms from your site, so people can easily find and understand them.
 
 ## Glossary Tooltips
 
-Plus, this tool has a cool feature that shows a little info box quickly when someone moves their mouse over these special words, making it super easy for them to get the meaning right away.
+Also, this tool has a feature to show a little info box quickly when someone hovers over the terms, making it super easy for them to get the meaning right away.
 
 ## Glossary Premium Editions
 
-The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-plugins-library/tooltipglossary/) come with lots of extra cool stuff. You get sound and video for tooltips, help from Wikipedia, Google Translate and Merriam-Webster, ChatGPT features, and ways to handle short forms, different word forms, and similar words. They also let you have more than one glossary, choose from different index designs, and a bunch of other great things.
+The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-plugins-library/tooltipglossary/) come with lots of extra other options. You can add audio and video for tooltips, synonyms and varations, integrate with Wikipedia, Google Translate, Merriam-Webster, ChatGPT; you can create multiple glossaries, choose from different index designs, and much more.
 
 ## Use-Cases
 
@@ -54,19 +54,19 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 
 > Some of these use cases might include Pro Plugin features
 
-* **Dictionary** - Makes a list of special words used on your website and can work in many languages.
-* **Tooltip** - Puts little info boxes on certain words that are already on your site.
-* **Knowledge Base** - Makes a collection of helpful words and their meanings, which can include pictures and documents.
-* **Synonyms** - Shows different words that mean the same as the ones you’re using.
-* **Lexicon** - Puts together a set of words.
-* **Vocabulary** - Creates a list of unique words and phrases you’ve chosen.
-* **Explanations** - Gives the meanings of words in your articles or pages.
-* **Translate** - Changes words and their meanings into other languages with Google Translate.
+* **Dictionary** - Builds a list of terms used on your website and can work in many languages.
+* **Tooltip** - Shows info boxes while hovering certain terms that are defined in your glossary.
+* **Knowledge Base** - Makes a collection of helpful terms and their meanings, which can include pictures and documents.
+* **Synonyms** - Shows different terms that mean the same as the ones you’re using.
+* **Lexicon** - Puts together a set of terms.
+* **Vocabulary** - Creates a list of unique terms and phrases you’ve chosen.
+* **Explanations** - Gives the meanings of terms in your articles or pages.
+* **Translate** - Changes terms and their meanings into other languages with Google Translate.
 * **Wikipedia** - Brings information from Wikipedia to your website.
-* **YouTube** - Plays YouTube or Vimeo videos when you hover over a word.
-* **Music** - Adds a voice or music file to each little info box.
+* **YouTube** - Plays YouTube or Vimeo videos when you hover over a term.
+* **Music** - Adds a voice or music file to each tooltip.
 * **Amazon** - Makes your site better with info boxes that suggest Amazon products.
-* **ChatGPT** - Fills in content for each word automatically with ChatGPT.
+* **ChatGPT** - Fills in content for each term automatically with ChatGPT.
 
 </details>
 
@@ -78,7 +78,7 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 * You can display the glossary index alphabetically either as a list or in a tile format.
 * The index can include up to 500 terms.
 * Each term in the glossary is given its own individual post.
-* A tooltip window can be set to show up when you hover over a term.
+* A tooltip box can be set to show up when you hover over a term.
 * Links to term pages can be embedded within your posts or pages.
 * There are multiple filters available to fine-tune the tooltip window and control the amount of description shown.
 * You can prevent the glossary from including certain text by using the [glossary_exclude] shortcode.
@@ -148,21 +148,21 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 > This plugin has all the stuff from the Free, Pro, and Pro+ versions, and also:
 
 * It can work with ChatGPT.
-* You can define words in many languages.
-* You can add your own links to words.
+* You can define terms in many languages.
+* You can add your own links to terms.
 * You can put sounds in the little pop-up boxes (tooltips).
 * You can also put videos in tooltips.
 * It works with Wikipedia and Wiktionary to give more info.
 * You can make a glossary in different languages.
-* It can show Amazon products.
-* It can show products from WooCommerce.
-* You can add tags to words.
-* By double-clicking, you can see definitions from somewhere else.
+* Integrates with Amazon products.
+* Itegrates with WooCommerce products.
+* You can add tags to terms.
+* By double-clicking, users can see definitions which are not defined in the glossary, but are fetched from third-party services.
 * It can show tooltips for pictures if you use the Alt tag.
-* It lets you choose which similar words to show first.
-* People can put your words on their website with an iframe.
-* You can have more than one meaning for a word.
-* There are over 300 ways you can change how it works!
+* It lets you define the order of parsing similar terms.
+* Users can share your terms on their websites with an iframe.
+* You can have more than one meaning for a term.
+* The plugin has over 300 settings you can use!
 
 </details>
 
