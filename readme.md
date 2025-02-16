@@ -3,7 +3,7 @@
 * Name: CM Tooltip Glossary
 * Contributors: CreativeMindsSolutions
 * Minimum WordPress version: 5.4.0
-* Tested up to WordPress version: 6.6
+* Tested up to WordPress version: 6.7.2
 
 ## Introduction
 
@@ -87,6 +87,7 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 * You have the ability to specify where on your site the tooltip should be displayed, such as on pages, posts, or the homepage.
 * You can decide whether a tooltip should be shown more than once.
 * The plugin is compatible with UTF-8 encoding.
+* Setup Wizard helps configure the plugin quickly and easily.
 
 </details>
 
@@ -122,11 +123,12 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 > The plugin encompasses all functionalities from the Free and Pro editions, plus:
 
 * Offers a selection from more than 18 Glossary Index page templates.
-* (NEW) Enables term whitelisting/blacklisting on specific posts or categories.
-* (NEW) Provides support for multiple meanings of the same term.
+* Enables term whitelisting/blacklisting on specific posts or categories.
+* Provides support for multiple meanings of the same term.
 * Allows for the addition and display of a featured image within the term’s tooltip.
 * Facilitates customization of the term page template.
 * Features a “Share This” widget to promote term sharing on social media platforms.
+* Allows to diplay an alphabetical archive widget.
 * Integrates with Google Translate for term translations.
 * Permits the creation and display of various glossary categories.
 * Includes a search feature on the Glossary page.
@@ -147,7 +149,8 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 
 > This plugin has all the stuff from the Free, Pro, and Pro+ versions, and also:
 
-* It can work with ChatGPT.
+* Integrates with ChatGPT.
+* Integrates with Gemini.
 * You can define terms in many languages.
 * You can add your own links to terms.
 * You can put sounds in the little pop-up boxes (tooltips).
