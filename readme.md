@@ -66,7 +66,7 @@ The [Premium versions of the Glossary Plugin](https://www.cminds.com/wordpress-p
 * **YouTube** - Plays YouTube or Vimeo videos when you hover over a term.
 * **Music** - Adds a voice or music file to each tooltip.
 * **Amazon** - Makes your site better with info boxes that suggest Amazon products.
-* **ChatGPT** - Fills in content for each term automatically with ChatGPT.
+* **ChatGPT & Gemini** - Fills in content for each term automatically with ChatGPT or Gemini.
 
 </details>
 
